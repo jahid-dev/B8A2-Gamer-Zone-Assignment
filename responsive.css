@@ -1,0 +1,41 @@
+@media screen and (max-width:800px){
+
+
+    .grid-container{  
+        grid-template-columns: repeat(3,1fr);
+  
+    }
+}
+
+@media screen and (max-width:700px){
+
+
+    .grid-container{  
+        grid-template-columns: repeat(2,1fr);
+  
+    }
+}
+
+@media screen and (max-width:576px){
+
+    .nav-container{
+
+        flex-direction: column; 
+    }
+    .nav-items-container{
+
+        flex-direction: column;
+        width: 100%; 
+    }
+    .logo-container{
+        justify-content: center;
+    }
+    .nav-items-container a{
+        margin-top: 20px;
+    }
+
+    .nav-items-container {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

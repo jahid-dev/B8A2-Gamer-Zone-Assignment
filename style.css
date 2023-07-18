@@ -1,0 +1,79 @@
+/* Shared Styles start */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+/* Shared styles end */
+
+/* navbar styles start */
+nav {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px #0000000d;
+}
+.nav-container {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.logo-container {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 85px;
+  height: 40px;
+  margin: 20px;
+  object-fit: cover;
+}
+.logo-container p {
+  color: #0b0223;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.G {
+  color: #e893cf;
+}
+
+.nav-items-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items-container a {
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 32px;
+}
+
+.follow-btn {
+  display: flex;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 20px;
+}
+.ytb-icon {
+  width: 34;
+  height: 24px;
+  box-sizing: content-box;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.tik-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+/* navbar styles end */
