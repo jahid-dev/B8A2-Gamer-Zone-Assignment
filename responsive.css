@@ -42,7 +42,9 @@
   .items {
     align-items: center;
   }
-
+  .bullet p{
+    font-size: 16px;
+  }
   /* header responsive end */
 
   .videos {
